@@ -8,15 +8,9 @@ int main()
     int chute;
     int contador = 2;
 
-    //------------- Biblioteca de sorteios -----
     srand(time(NULL));
     int teste = rand() % 11;
-    //------------------
-
-    //------ liberar essa variavel para ver o sorteio
-    //printf("%d", teste);
-    //------------------
-
+ 
     while (contador >=0) {
     printf("Tente adivinhar qual o número, dê um chute: \n");
     scanf("%d", &chute);
